@@ -81,12 +81,13 @@ html {
   </ul>
 
 
-  {% block sytlesheet %}
+  {% block stylesheet %}
 <style>
 .btn-jupyter {
     background-color: #33b5e5;
 }
 </style>
+{% endblock % }
 <div class="service-login">
 	<a role="button" class='btn btn-jupyter btn-lg' href='{{authenticator_login_url}}'>
     Authorized CMS Users Only: <br> Sign in with {{login_service}}
