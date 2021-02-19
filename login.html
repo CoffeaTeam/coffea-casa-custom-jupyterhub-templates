@@ -51,20 +51,26 @@ html {
 .menu li:hover {
     background-color: #0099cc;
 }
-.btn-jupyter {
+button,.btn,.btn-lg,.btn-jupyter {
     background-color: #E41C38;
     transition-duration: 0.4s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .btn-jupyter:hover {
-    background-color: #C8394D
+    background-color: #fff;
+    color: #C8394D;
 }
 
-.btn-jupyter:focus{
-	background-color: #C8394D
+.btn-jupyter:active{
+        color: #fff;
+        background-color: #C8394D;
+        transform: scale(0.95);
 }
+.btn-jupyter:focus:active{
+        color: #fff;
+        background-color: #C8394D;
+        transform: scale(.95);
 }
-
 
 </style>
 </head>
