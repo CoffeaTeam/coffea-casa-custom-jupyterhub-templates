@@ -101,11 +101,17 @@ button,.btn,.btn-lg,.btn-jupyter {
 
 Watch here for announcements!
 
-
 <div class="service-login">
 	<a role="button" class='btn btn-jupyter btn-lg'  href="https://registry.cilogon.org/registry/co_petitions/start/coef:178">Register for access</a>
   </a>
 </div>
+
+<div class="service-login">
+	<a role="button" class='btn btn-jupyter btn-lg' href='{{authenticator_login_url}}'>
+    Authorized Users Only: <br> Sign in with {{login_service}}
+  </a>
+</div>
+
 </div>
 
 {% endblock %}
